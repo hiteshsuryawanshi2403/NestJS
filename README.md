@@ -18,9 +18,6 @@
     <li>Jest Testcases</li>
     </ul>
     </p>
-    
-    
-   
     <p align="right">
     <ul>
     <li>Angular Sample Application</li>
