@@ -20,9 +20,7 @@
     </p>
     
     
-    
-    <br><br>
-    
+   
     <p align="right">
     <ul>
     <li>Angular Sample Application</li>
