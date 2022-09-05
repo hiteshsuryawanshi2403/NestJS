@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="11" failures="0" errors="0" time="3.472">
+  <testsuite name="AppRepositoity" errors="0" failures="0" skipped="0" timestamp="2022-09-05T05:32:07" time="2.867" tests="3">
+    <testcase classname="AppRepositoity should be defined" name="AppRepositoity should be defined" time="0.135">
+    </testcase>
+    <testcase classname="AppRepositoity It should return user information" name="AppRepositoity It should return user information" time="0.008">
+    </testcase>
+    <testcase classname="AppRepositoity It should return error for user does not exits in DB " name="AppRepositoity It should return error for user does not exits in DB " time="0.017">
+    </testcase>
+  </testsuite>
+  <testsuite name="AppController" errors="0" failures="0" skipped="0" timestamp="2022-09-05T05:32:07" time="2.953" tests="3">
+    <testcase classname="AppController should be defined" name="AppController should be defined" time="0.164">
+    </testcase>
+    <testcase classname="AppController It should return user information" name="AppController It should return user information" time="0.006">
+    </testcase>
+    <testcase classname="AppController It should return error for user does not exits in DB " name="AppController It should return error for user does not exits in DB " time="0.01">
+    </testcase>
+  </testsuite>
+  <testsuite name="AppService" errors="0" failures="0" skipped="0" timestamp="2022-09-05T05:32:09" time="0.249" tests="4">
+    <testcase classname="AppService should be defined" name="AppService should be defined" time="0.037">
+    </testcase>
+    <testcase classname="AppService It should return user information" name="AppService It should return user information" time="0.004">
+    </testcase>
+    <testcase classname="AppService It should return error for user does not exits in DB " name="AppService It should return error for user does not exits in DB " time="0.004">
+    </testcase>
+    <testcase classname="AppService It should return error for user does not contain title for record " name="AppService It should return error for user does not contain title for record " time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="AppModule (integration)" errors="0" failures="0" skipped="0" timestamp="2022-09-05T05:32:10" time="0.233" tests="1">
+    <testcase classname="AppModule (integration) App init" name="AppModule (integration) App init" time="0">
+    </testcase>
+  </testsuite>
+</testsuites>
