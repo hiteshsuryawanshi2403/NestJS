@@ -8,7 +8,7 @@
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 [circleci-url]: https://circleci.com/gh/nestjs/nest
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications by Hitesh Suryawanshi</p>
+  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications by Hitesh Suryawanshi along side with <a href="http://angular.io" target="_blank">Angular/></a></p>
     <p align="center">
     <ul>
     <li>Nest JS Sample Application</li>
@@ -16,6 +16,15 @@
     <li>Exception handler</li>
     <li>Swagger Documentation</li>
     <li>Jest Testcases</li>
+    </ul>
+    </p>
+    <p align="center">
+    <ul>
+    <li>Angular Sample Application</li>
+    <li>Dynamic form</li>
+    <li>Exception handler</li>
+    <li>Lazy loading</li>
+    <li>Http Handler</li>
     </ul>
     </p>
 
