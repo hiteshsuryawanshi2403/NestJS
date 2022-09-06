@@ -45,11 +45,11 @@ $ cd hitesh-suryawanshi-web/npm install
 
 ```bash
 # development
-$ npm run start
-
+$ cd hitesh-suryawanshi-web/npm run start
+# http://localhost:4200
 # watch mode
-$ npm run start:dev
-
+$ cd hitesh-suryawanshi-api/npm run start:dev
+# http://localhost:3000
 # production mode
 $ npm run start:prod
 ```
