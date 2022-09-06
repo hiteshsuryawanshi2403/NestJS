@@ -41,6 +41,18 @@ $ cd hitesh-suryawanshi-api/npm install
 $ cd hitesh-suryawanshi-web/npm install
 ```
 
+## Creating build
+
+```bash
+# assumed node_modules are being install for both the application
+$ cd hitesh-suryawanshi-api/npm run build
+$ cd hitesh-suryawanshi-web/npm run build
+# above command will create build in dist/src folder in hitesh-suryawanshi-api and for angular application it will generate ui folder in hitesh-suryawanshi-api/dist/src
+$ cd hitesh-suryawanshi-api/dist/src
+$ node main.js
+# you can copy the bundles under hitesh-suryawanshi-api/dist/src which will be final build and can be run at http://localhost:3000
+```
+
 ## Running the  app
 
 ```bash
@@ -58,20 +70,20 @@ $ npm run start:prod
 
 ```bash
 # unit tests
-$ npm run test
+$ cd hitesh-suryawanshi-api/npm run test
 
 # e2e tests
-$ npm run test:e2e
+$ cd hitesh-suryawanshi-api/npm run test:e2e
 
 # test coverage
-$ npm run test:cov
+$ cd hitesh-suryawanshi-api/npm run test:cov
 ```
 
 ## Swager document
 
 ```bash
 # build api doc
-$ npm run build:doc
+$ cd hitesh-suryawanshi-api/npm run build:doc
 ```
 
 ## Support
