@@ -1,0 +1,13 @@
+{
+  "name": "hitesh-suryawanshi",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild":"cd hitesh-suryawanshi-api && npm i && cd .. && cd hitesh-suryawanshi-web && npm i",
+    "build": "cd hitesh-suryawanshi-api && npm run build && cd .. && cd hitesh-suryawanshi-web && npm run build",
+    "start": "cd hitesh-suryawanshi-api && cd dist && cd src && node main.js"
+  },
+  "author": "Hitesh Suryawanshi"
+}
