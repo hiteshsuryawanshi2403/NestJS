@@ -8,6 +8,7 @@
     "node": ">=10.13.0"
   },
   "dependencies": {
+    "@angular-devkit/build-angular": "^0.901.15",
     "@angular/cli": "^9.0.1",
     "@nestjs/cli": "^9.1.2"
   },
