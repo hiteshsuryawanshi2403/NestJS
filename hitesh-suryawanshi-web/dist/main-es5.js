@@ -77,12 +77,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _createClass(EmployeeDataHandlerService, [{
         key: "getData",
         value: function getData() {
-          return this.http.get("http://localhost:3000/posts/");
+          return this.http.get("https://hitesh-api.herokuapp.com/posts/");
         }
       }, {
         key: "getDataById",
         value: function getDataById(id) {
-          return this.http.get("http://localhost:3000/posts/" + id);
+          return this.http.get("https://hitesh-api.herokuapp.com/posts/" + id);
         }
       }]);
 

@@ -9,9 +9,9 @@ export class EmployeeDataHandlerService {
   constructor(private http: ApiHttpService) {}
 
   getData(): Observable<any> {
-    return this.http.get("http://localhost:3000/posts/");
+    return this.http.get("https://hitesh-api.herokuapp.com/posts/");
   }
   getDataById(id): Observable<any> {
-    return this.http.get("http://localhost:3000/posts/" + id);
+    return this.http.get("https://hitesh-api.herokuapp.com/posts/" + id);
   }
 }
