@@ -5,13 +5,16 @@
   "main": "index.js",
   "engines": {
     "npm": "^6.11.0",
-    "node": ">=10.13.0"
+    "node": "10.13.0"
   },
   "dependencies": {
     "@angular-devkit/build-angular": "^0.901.15",
     "@angular/cli": "^9.0.1",
+    "@angular/compiler": "^9.0.7",
     "@angular/compiler-cli": "^9.0.7",
-    "@nestjs/cli": "^9.1.2"
+    "@nestjs/cli": "^9.1.2",
+    "typescript": "^3.7.5",
+    "webpack": "^4.6.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
